@@ -1,7 +1,7 @@
 ## Hangman on Python
 A simple hangman game.
 
-This was made on track: "Python for Beginners" by JetBrains academy.
+This was made on track: "Python for Beginners" from JetBrains academy.
 ## Technologies
 Project is created with:
 * PyCharm Professional: 2021.2.1
