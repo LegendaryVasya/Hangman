@@ -1,12 +1,15 @@
-# need file pool in future
+# add file pool
 import random
 
 print("H A N G M A N")
 
 
 def game_start():
-    answers = ['python', 'java', 'kotlin', 'javascript']
-    right_answer = random.choice(answers)
+    #answers = ['python', 'java', 'kotlin', 'javascript']
+    file = open('pool.txt')
+    pool = file.readlines()
+   # right_answer = random.choice(answers)
+    right_answer = random.choice(pool)
     dashes = list('-' * len(right_answer))
     attempt = 0
     user_guess_letters = []
